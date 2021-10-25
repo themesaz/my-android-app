@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
         setupInternalStorageRecyclerView()
         loadPhotosFromInternalStorageToRecyclerView()
     }
-
+    //some changes
     private fun updateOrRequestPermissions(){
         val hasReadPermission = ContextCompat.checkSelfPermission(
             this,
